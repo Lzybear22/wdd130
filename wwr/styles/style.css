@@ -12,26 +12,25 @@ main section {
 }
 
 body {
-    background-color: #fcfbfb;
+    background-color: var(--accent2-color);
 }
 
 header {
-    background-color: rgba(20, 30, 13, 0.7);
+    background-color: var(--paragraph-background-color); 
 }
 
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+    background-color: var(--nav-hover-background-color); 
+    color: var(--nav-hover-link-color); 
 }
 
 .book, .join {
-    background-color: #f2b632;
-    color: #fff;
+    background-color: #f2b632; 
+    color: black; 
 }
 
 .book:hover, .join:hover {
-    background-color: #d99330;
-    color: #fff;
+    background-color: var(--accent1-color);
 }
 
 #background {
@@ -40,11 +39,11 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #ffffff;
+    background-color: var(--accent2-color);
 }
 
 footer {
-    background-color: #202020;
+    background-color: #c4a484;
     color: #fff;
 }
 
