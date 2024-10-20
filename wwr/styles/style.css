@@ -20,6 +20,10 @@ body {
     margin: 0;
     padding: 0;
 }
+h2 {
+    margin: 0;
+}
+
 
 header {
     background-color: var(--paragraph-background-color); 
@@ -69,17 +73,17 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-
-.logo .icon {
-    width: 80px;
+.icon {
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
 }
 
-nav a,
-.book, .join,
+.book, .join {
+    padding: 15px 30px;
+}
 footer a {
     text-decoration: none;
 }
@@ -94,6 +98,7 @@ footer .social img {
 nav a {
     padding: 35px;
 }
+
 
 .msg p {
     padding-bottom: 15px;
