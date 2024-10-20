@@ -21,10 +21,6 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif; 
-}
-
 header {
     background-color: var(--paragraph-background-color); 
     padding: 15px 0;
@@ -89,7 +85,7 @@ footer a {
 }
 
 footer .social img {
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 #logo_link {
