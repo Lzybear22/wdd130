@@ -109,7 +109,15 @@ main section img {
 
 
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Rock Salt', Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+}
+
+.button-box {
+    margin-bottom: 50px; 
+}
+
+main section {
+    margin-bottom: 30px;
 }
