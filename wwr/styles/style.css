@@ -246,7 +246,131 @@ footer .social img{
     box-shadow: 5px 5px 10px #5E6058;
   }
 
-  
+.river-grid {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.river-info {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.river-info h2, .river-info h3 {
+    color: #005a87;
+    margin-top: 1rem;
+}
+
+.river-info p {
+    margin-bottom: 1rem;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero-text h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-container.rivers-hero {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 2rem auto;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hero-container.rivers-hero .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.hero-container.rivers-hero .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    pointer-events: none; 
+}
+
+.hero-container.rivers-hero .hero-text h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero-container.rivers-hero .hero-text h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+} 
   
   @media screen and (max-width: 900px) {
     #hero, .home-grid {
