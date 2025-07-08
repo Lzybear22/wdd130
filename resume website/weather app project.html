@@ -3,47 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JavaScript Weather App - My Personal Site</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Hunter's Projects</title>
+  <link rel="stylesheet" href="styles/homestyles.css" />
 </head>
 <body>
-  <header>
+  <header class="site-header">
+    <div class="header-container">
     <div class="logo">
-      <img src="pictures/Hunters projects.png" alt="Hunter's Projects Logo" />
-    <nav>
+        <img src="pictures/Hunters projects.png" alt="Hunter's Projects Logo" />
+    </div>
+        <nav class="main-nav">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="sqlite project.html">SQLite Project</a></li>
-        <li><a href="weather app project.html">Weather App Project</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Projects ▾</a>
+            <div class="dropdown-content">
+              <a href="sqlite project.html">SQLite Project</a>
+              <a href="weather app project.html">Weather App Project</a>
+            </div>
+          </li>          
       </ul>
     </nav>
+    </div>
   </header>
 
   <main>
-    <section class="project-description">
-      <h1>JavaScript Weather App</h1>
-      <p>
-        This weather app uses JavaScript and the OpenWeather API to fetch and display real-time weather data based on user input. Users can search by city name and view details like temperature, humidity, and conditions.
-      </p>
-      <p>
-        I used JavaScript features like DOM manipulation, event handling, and Axios for API requests. This project helped me strengthen my skills in working with APIs.
-      </p>
-      <p>
-        View it on <a href="https://github.com/Lzybear22/JavaScript-Weather-App" target="_blank">GitHub</a>.
-      </p>
+    <h1>JavaScript Weather App</h1>
+    <p>This weather app uses JavaScript and the OpenWeather API to display weather data in real-time. What you do is enter in a city in the place where it says "Enter a city".
+      Then the app uses Axios to send a request to the OpenWeather API and it asks for the current weather data in that city. The user can press whichever data they want to see 
+      (E.g. Temperature, humidity, and weatehr conditions like cloudy and sunny). Then the app updates the webpage showing the data the user requested without having to reload the page for the best user experience.
+    </p>
+    <section class="pictures">
+      <figure>
+        <img src="pictures/start of weather app.png" alt="Start of Weather App" />
+        <figcaption>Initial screen where user enters the city name.</figcaption>
+      </figure>
+      <figure>
+        <img src="pictures/Weather app.png" alt="Weather App in use" />
+        <figcaption>Weather results showing temperature, humidity, and conditions.</figcaption>
+      </figure>
     </section>
 
-    <section class="media">
-      <img src="pictures/Weather app.png" alt="JavaScript Weather app screenshot" />
-      <img src="pictures/start of weather app.png" alt="JavaScript Weather App start" />
+    <section class="links">
+      <h2>Links</h2>
+      <ul>
+        <li><a href="https://github.com/Lzybear22">GitHub</a></li>
+        <li><a href="mailto:hulrich123@icloud.com">Email/Number</a></li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    <section class="footer-links">
-      <a href="https://github.com/Lzybear22">GitHub</a> |
-      <a href="hulrich123@icloud.com">Email</a>
-    </section>
+    <p><a href="site-plan.html">View Site Plan</a></p>
   </footer>
 </body>
 </html>
