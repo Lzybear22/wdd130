@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SQLite Expense Tracker - My Personal Site</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hunter's Projects</title>
+  <link rel="stylesheet" href="styles/homestyles.css">
 </head>
 <body>
-  <header>
-    <div class="Logo">
-      <img src="pictures/Hunters projects.png" alt="Hunter's Projects Logo" />
-    <nav>
+  <header class="site-header">
+    <div class="header-container">
+    <div class="logo">
+        <img src="pictures/Hunters_projects.png" alt="Hunter's Projects Logo">
+    </div>
+        <nav class="main-nav">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="sqlite project.html">SQLite Project</a></li>
-        <li><a href="weather app project.html">Weather App Project</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Projects ▾</a>
+            <div class="dropdown-content">
+              <a href="sqlite_project.html">SQLite Project</a>
+              <a href="weather_app_project.html">Weather App Project</a>
+            </div>
+          </li>          
       </ul>
     </nav>
+    </div>
   </header>
 
   <main>
-    <section class="project-description">
-      <h1>SQLite Expense Tracker</h1>
-      <p>
-        This is a simple expense tracking app built in Python using SQLite.
-        It allows users to add, view, and manage their expenses with categories, descriptions, and amounts. Data is stored locally in an SQLite database, making it easy to use offline.
-      </p>
-      <p>
-        I designed this project to practice database operations like insert, select, update, and delete and allowed users to filter the database by date or category.
-      </p>
-      <p>
-        View it on <a href="https://github.com/Lzybear22/Expesnse-Tracker-SQLlite" target="_blank">GitHub</a>.
-      </p>
+    <h1>SQLite Expense Tracker</h1>
+    <p>This project is a really easy to use Expense Tracker made with Python and SQLite. It helps you keep track of your daily spending by alowing users add amounts, categories, and dates for each expense they want to add.
+      All your data is saved locally in a SQLite database, so you don’t need an internet connection or server.
+      You can add, view, update, and delete expenses, and even filter them by date or category. The app also calculates totals to help you see how much you’ve spent.
+      This project helped me learn how to work with databases and use SQL commands inside a Python program.
+    <section class="pictures">
+      <h2>App Screenshots</h2>
+      <figure>
+        <img src="pictures/expense_tracker.png" alt="Expense Tracker Main">
+        <figcaption>Main screen showing expense list and add button.</figcaption>
+      </figure>
+      <figure>
+        <img src="pictures/delete_sql_expense_tracker.png" alt="Delete Expense">
+        <figcaption>Form used to delete expenses from the query.</figcaption>
+      </figure>      
     </section>
 
-    <section class="media">
-      <img src="pictures/expesnse tracekr.png" alt="Expense Tracker Screenshot" />
-      <img src="pictures/delete sql expense tracker.png" alt="Expense Tracker delete in action" />
+    <section class="links">
+      <h2>Links</h2>
+      <ul>
+        <li><a href="https://github.com/Lzybear22">GitHub</a></li>
+        <li><a href="mailto:hulrich123@icloud.com">Email/Number</a></li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    <section class="footer-links">
-      <a href="https://github.com/Lzybear22">GitHub</a> |
-      <a href="hulrich123@icloud.com">Email/Number</a>
-    </section>
+    <p><a href="site-plan.html">View Site Plan</a></p>
   </footer>
 </body>
 </html>
-
